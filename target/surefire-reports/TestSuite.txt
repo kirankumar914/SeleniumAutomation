@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 330.279 sec <<< FAILURE!
+loginPageTitleTest(com.qa.testClasses.LoginPageTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+java.lang.AssertionError: expected [#1 Free CRM software in the cloud for sales and service] but found [CRMPRO Log In Screen]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.qa.testClasses.LoginPageTest.loginPageTitleTest(LoginPageTest.java:35)
+
